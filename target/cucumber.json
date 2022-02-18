@@ -1,0 +1,183 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6346543100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "com.crm.step_definitions.LoginStepDefs.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23194566200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user click on Message",
+            "match": {
+              "location": "com.crm.step_definitions.MessageStepDefs.the_user_click_on_Message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-18T20:33:49.251Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4679239500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.crm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "adding users by selecting multiple contacts from Employees and Departments contact lists",
+        "description": "",
+        "id": ";adding-users-by-selecting-multiple-contacts-from-employees-and-departments-contact-lists",
+        "after": [
+          {
+            "result": {
+              "duration": 677302500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.crm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3139852900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user click on Add more button",
+            "match": {
+              "location": "com.crm.step_definitions.MessageStepDefs.the_user_click_on_Add_more_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10139906300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user click on Employees and departments button",
+            "match": {
+              "location": "com.crm.step_definitions.MessageStepDefs.the_user_click_on_Employees_and_departments_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3139624700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user click on \"Accounting\" department",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Accounting\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.crm.step_definitions.MessageStepDefs.the_user_click_on_department(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3137240300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user click on All department and department employees to add all department add",
+            "match": {
+              "location": "com.crm.step_definitions.MessageStepDefs.the_user_click_on_All_department_and_department_employees_to_add_all_department_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3152352400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user click on \"helpdesk9@cybertekschool.com\" to add employee",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk9@cybertekschool.com\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.crm.step_definitions.MessageStepDefs.the_user_click_on_to_add_employee(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6185674900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user should be able to see selected department and employee, in To input box",
+            "match": {
+              "location": "com.crm.step_definitions.MessageStepDefs.the_user_should_be_able_to_see_selected_department_and_employee_in_To_input_box()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@872"
+          },
+          {
+            "name": "@pass"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/message.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
